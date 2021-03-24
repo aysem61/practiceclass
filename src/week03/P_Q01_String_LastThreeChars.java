@@ -30,9 +30,9 @@ public class P_Q01_String_LastThreeChars {
 		
 		String temp="";
 		
-		int l=s.length();
+		int a=s.length();
 		
-		temp=s.substring(l-3)+s+s.substring(l-3);
+		temp=s.substring(a-3)+s+s.substring(a-3);
 		
 		return temp;
 	}
